@@ -52,7 +52,7 @@
     >use [DBName]
 - 创建集合
     >db.createCollection([name], [options])
-    ![option图示](https://github.com/vagrantgrapefruit/schoolStudy/blob/master/contant/mongoDB1.png)
+    ![option图示](https://github.com/vagrantgrapefruit/My-Word/blob/master/contant/MongoDB1.png)
 - 删除数据库
     >use [DBName]
     >
@@ -96,7 +96,7 @@
     >query ：可选，使用查询操作符指定查询条件
     >
     >projection ：可选，使用投影操作符指定返回的键。查询时返回文档中所有键值， 只需省略该参数即可（默认省略）。
-    ![参数说明](https://github.com/vagrantgrapefruit/schoolStudy/blob/master/contant/mongoDB4.png)
+    ![参数说明](https://github.com/vagrantgrapefruit/My-Word/blob/master/contant/MongoDB4.png)
     - 示例
     ```
         var document=({Name:'小方',Sex:'男',Age:18})
@@ -122,7 +122,7 @@
     >justOne : （可选）如果设为 true 或 1，则只删除一个文档。
     >
     >writeConcern :（可选）抛出异常的级别。
-    ![异常级别](https://github.com/vagrantgrapefruit/schoolStudy/blob/master/contant/mongoDB5.png)
+    ![异常级别](https://github.com/vagrantgrapefruit/My-Word/blob/master/contant/MongoDB5.png)
     - 示例
     ```
         db.test.remove({Name:'dalao'})
@@ -143,7 +143,7 @@
         }
     ) 
     ```
-    ![参数说明](https://github.com/vagrantgrapefruit/schoolStudy/blob/master/contant/mongoDB2.png)
+    ![参数说明](https://github.com/vagrantgrapefruit/My-Word/blob/master/contant/MongoDB5.png)
     - 示例
     ```
     db.test.update({Name:'dalao'},{$set:{Sex:'男'}})
