@@ -122,6 +122,7 @@
     >justOne : （可选）如果设为 true 或 1，则只删除一个文档。
     >
     >writeConcern :（可选）抛出异常的级别。
+    ![参数详情](https://github.com/vagrantgrapefruit/My-Word/blob/master/contant/MongoDB2.png)
     ![异常级别](https://github.com/vagrantgrapefruit/My-Word/blob/master/contant/MongoDB5.png)
     ![异常级别](https://github.com/vagrantgrapefruit/My-Word/blob/master/contant/MongoDB7.png)
     - 示例
