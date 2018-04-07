@@ -123,6 +123,7 @@
     >
     >writeConcern :（可选）抛出异常的级别。
     ![异常级别](https://github.com/vagrantgrapefruit/My-Word/blob/master/contant/MongoDB5.png)
+    ![异常级别](https://github.com/vagrantgrapefruit/My-Word/blob/master/contant/MongoDB7.png)
     - 示例
     ```
         db.test.remove({Name:'dalao'})
@@ -150,5 +151,23 @@
     ```
 
     ### Save()
-    
+    ```
+    db.collection.save(
+        <document>,
+        {
+            writeConcern: <document>
+        }
+    )
+    ```
+    ![参数说明](https://github.com/vagrantgrapefruit/My-Word/blob/master/contant/MongoDB6.png)
+
+    - 示例
+    ```
+    db.test.find().pretty()
+    document._id=ObjectId("5ac8c09097ed4fdd4d2ea309")
+    document.Age='20'
+    db.test.save(document)
+    db.test.find().pretty()
+    ```
+    - 传入的文档中必须含有_id项且_id已存在集合中，否则会创建新的文档
 - 
