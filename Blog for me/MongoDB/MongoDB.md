@@ -76,7 +76,7 @@
         >>重复赋值会覆盖变量的内容
     ```
     document=({
-        Name:'游子佳'，
+        Name:'柚子'，
         Sex:'男'，
         Age:18
     });
@@ -84,7 +84,7 @@
     - 示例
     ```
         using test
-        var document=({Name:'游子佳',Sex:'男',Age:18})
+        var document=({Name:'柚子',Sex:'男',Age:18})
         db.test.insert(document)
         db.test.find().pretty()
     ```
@@ -99,7 +99,7 @@
     ![参数说明](https://github.com/vagrantgrapefruit/My-Word/blob/master/contant/MongoDB4.png)
     - 示例
     ```
-        var document=({Name:'小方',Sex:'男',Age:18})
+        var document=({Name:'Thone',Sex:'男',Age:18})
         db.test.insert(document)
         document.Name='dalao'
         document.Sex='女'
@@ -165,8 +165,8 @@
     - 示例
     ```
     db.test.find().pretty()
-    document._id=ObjectId("5ac8c09097ed4fdd4d2ea309")
-    document.Age='20'
+    document._id=ObjectId("5ac8c09097ed4fdd4d2ea309") //对应的ObjectId
+    document.Age=20
     db.test.save(document)
     db.test.find().pretty()
     ```
