@@ -12,6 +12,8 @@
 
 2. 安装MongoDB（建议安装在某个盘的根目录下便于操作）
 
+    **在winserver2008R2上安装时需要取消勾选Install MongoDB Compass 然后重新启动安装程序安装Compass**
+
 3. 创建数据文件目录（建议C:/data/db）
 
 4. 启动MongoDB 
@@ -38,7 +40,7 @@
     >>port=27017 # 端口号 默认为 27017
 
 6. 安装服务(将MongoDb配置为服务)
-    >"C:\mongodb\bin\mongod.exe" --config "C:\mongodb\mongod.cfg" --install
+    >C:\mongodb\bin\mongod.exe --config "C:\mongodb\mongod.cfg" --install
 
     >服务启动与停止
     >
